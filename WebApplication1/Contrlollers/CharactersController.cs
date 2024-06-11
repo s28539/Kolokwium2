@@ -39,6 +39,4 @@ public class CharactersController : ControllerBase
         });
     }
     //[HttpPost("{characterID}/backpacks")]
-    
-    
 }

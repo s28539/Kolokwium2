@@ -9,7 +9,5 @@ public interface IDbService
     public Task<characters> GetCharactersDetail(int characterID);
     public Task<ICollection<backpacks>> AddBackpack(List<AddBackpackDTO> backpackDto);
     public Task<bool> allBackpacksAreInDatabase(List<AddBackpackDTO> backpackDtos);
-    
-
-
+  
 }
